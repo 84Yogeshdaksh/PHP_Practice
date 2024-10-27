@@ -51,14 +51,4 @@ echo sum($x,$y);
 
 include 'OOUUserInput1.php';
 
-
-
-
-
-    
-
-
-
-
-
 ?>
