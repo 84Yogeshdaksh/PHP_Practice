@@ -68,6 +68,20 @@ foreach ($emp_details as $value) {
 }
 echo "<table>";
 
+echo "<br><br>";
+
+#Multidimentional Associative Array
+echo "Printing Multidimentional Associaltive array";
+$emp_details=[
+    ["Name"=>"Yogesh","age"=>20,"city"=>"Hasanpur","Distric"=>"Amroha"],
+    ["Name"=>"Rahul","Age"=>35,"city"=>"Hasanpur","Distric"=>"Amroha"],
+    ["Name"=>"Lovely","Age"=>20,"city"=>"FromMyHeart","Distric"=>"MyBody"],
+    ["Name"=>"Himanshu","Age"=>54,"city"=>"MBD","Distric"=>"MBD"]
+];
+
+echo "<pre>";
+var_dump($emp_details);
+echo "</pre>";
 
 
 ?>
