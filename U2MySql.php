@@ -1,4 +1,5 @@
 <?php
+//procedural approach
 $servername = "localhost";
 $username = "root";
 $password = "";
